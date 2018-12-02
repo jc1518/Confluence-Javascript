@@ -2,7 +2,7 @@
 	<script>
       AJS.toInit(function() {
 		  AJS.$("#check-key").click(function() {
-	          var JIRA_HOST = 'YOUR JIRA HOST'; // https://jira.mydomain.com
+			  var JIRA_HOST = 'YOUR JIRA HOST'; // https://jira.mydomain.com
 			  var validate = /^[A-Z]+$/;
 			  var projectkey = AJS.$("#project-key").val();
 			  if (projectkey.match(validate)) {
